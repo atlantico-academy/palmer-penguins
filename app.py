@@ -6,9 +6,6 @@ import pandas as pd
 from src.app import classificador, analise_exploratoria, analise_comparativa, sobre
 
 
-# st.set_page_config(
-#     layout="wide",
-# )
 st.markdown('<style>' + open('./style.css').read() + '</style>', unsafe_allow_html=True)
 with st.sidebar:
     tabs = on_hover_tabs(
